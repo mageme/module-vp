@@ -1,0 +1,17 @@
+{
+  "name": "vladimirpopov/module-test",
+  "description": "Test",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "VladimirPopov\\Test\\": ""
+    }
+  }
+}
